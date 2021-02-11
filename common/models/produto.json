@@ -1,0 +1,30 @@
+{
+  "name": "produto",
+  "plural": "produtos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "descricao": {
+      "type": "string",
+      "required": true
+    },
+    "precoVenda": {
+      "type": "number",
+      "required": true
+    },
+    "precoCompra": {
+      "type": "number"
+    },
+    "tipo": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

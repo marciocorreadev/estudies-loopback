@@ -5,7 +5,7 @@
     "url": "",
     "database": "postgres",
     "password": "root",
-    "name": "postgres",
+    "name": "db",
     "user": "postgres",
     "connector": "postgresql"
   }
