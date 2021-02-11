@@ -7,20 +7,23 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "start": "node .",
+    "start": "nodemon .",
     "posttest": "npm run lint && nsp check"
   },
   "dependencies": {
+    "chalk": "^4.1.0",
     "compression": "^1.0.3",
     "cors": "^2.5.2",
     "helmet": "^3.11.0",
     "loopback": "^2.40.0",
     "loopback-boot": "^2.6.5",
     "loopback-component-explorer": "^5.4.0",
+    "loopback-component-migrate": "git+https://github.com/thiagolyma/loopback-component-migrate.git",
     "loopback-connector-postgresql": "^3.9.1",
     "loopback-datasource-juggler": "^3.36.1",
     "serve-favicon": "^2.0.1",
-    "strong-error-handler": "^2.0.0"
+    "strong-error-handler": "^2.0.0",
+    "winston": "^3.3.3"
   },
   "devDependencies": {},
   "repository": {
