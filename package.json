@@ -6,6 +6,8 @@
     "node": ">=6"
   },
   "scripts": {
+    "automigrate": "node server/scripts/automigrate.js",
+    "dicovermodel": "node server/scripts/discover-models.js",
     "lint": "eslint .",
     "start": "nodemon .",
     "posttest": "npm run lint && nsp check"
@@ -14,6 +16,7 @@
     "chalk": "^4.1.0",
     "compression": "^1.0.3",
     "cors": "^2.5.2",
+    "dotenv": "^8.2.0",
     "helmet": "^3.11.0",
     "loopback": "^2.40.0",
     "loopback-boot": "^2.6.5",

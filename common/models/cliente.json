@@ -1,6 +1,6 @@
 {
-  "name": "produto",
-  "plural": "produtos",
+  "name": "cliente",
+  "plural": "clientes",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -8,8 +8,7 @@
   },
   "properties": {
     "nome": {
-      "type": "string",
-      "required": true
+      "type": "string"
     }
   },
   "validations": [],
