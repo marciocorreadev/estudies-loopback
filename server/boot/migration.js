@@ -2,7 +2,7 @@ const autoUpdateAll = require('../scripts/autoUpdateAll')
 
 module.exports = function runMigrations(app, callback) {
     autoUpdateAll()
-
+    callback()
     // if (!process.env.MIGRATION) return callback();
 
     // var Migrate = app.models.Migration;

@@ -35,5 +35,9 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Produto": {
+    "dataSource": "db",
+    "public": true
   }
 }
